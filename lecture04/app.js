@@ -1,9 +1,9 @@
 (function () {
   'use strict';
 
-  angular.module('myfirstapp',[])
-  .controller("MyFirstController",function(){
-
+  angular.module('myApp',[])
+  .controller("MyCtrl",function($scope){
+    $scope.name="shay";
 
   });
 
