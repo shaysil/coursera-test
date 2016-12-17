@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html ng-app="Assignment1App">
   <head>
@@ -23,3 +24,30 @@
     </div>
   </body>
 </html>
+=======
+<!DOCTYPE html>
+<html ng-app="Assignment1App">
+  <head>
+    <meta charset="utf-8">
+    <script src="angular.min.js"></script>
+    <script src="app.js"></script>
+<style media="screen">
+  body{font-size: 1.2em;}
+</style>
+    <title>Assignment 1</title>
+  </head>
+  <body>
+    <h1>Assignment 1</h1>
+    <div ng-controller="Assignment1Controller">
+      Enter words with comma-separated <br>
+        <input type="text" ng-model="TextInput"/>
+
+      <div>
+        <button ng-click="Check()"> Check If Too Much</button>
+        <br>
+          {{Message}}
+      </div>
+    </div>
+  </body>
+</html>
+>>>>>>> 5f8bff1f5428d4e9ab5f34fb5a74827269d44ddc
